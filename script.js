@@ -427,7 +427,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const urlParams = new URLSearchParams(window.location.search);
     if (urlParams.toString() === '') return;
 
-    const checkoutLinks = document.querySelectorAll('a[href*="pay.wiapy.com"], a[href*="payfast.greenn.com.br"]');
+    const checkoutLinks = document.querySelectorAll('a[href*="pay.kiwify.com.br"]');
 
     checkoutLinks.forEach(link => {
       try {
